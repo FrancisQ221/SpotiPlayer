@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SpotiPlayer</string>
+    <string name="title_activity_main">SpotiPlayer</string>
+    <string name="package_name">com.spotiplayer.music</string>
+    <string name="custom_url_scheme">com.spotiplayer.music</string>
+</resources>

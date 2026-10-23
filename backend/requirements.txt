@@ -1,0 +1,13 @@
+# ==============================================================================
+# SpotiPlayer Micro-Backend - Pinned Production Dependencies
+# Target: Python 3.11-slim on Cloud Containers (Render / Railway / Fly.io)
+# ==============================================================================
+
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+ytmusicapi==1.10.1
+yt-dlp==2025.2.19
+pydantic==2.10.6
+requests==2.32.3
+httpx==0.28.1
+python-multipart==0.0.20

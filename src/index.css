@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@theme {
+  --color-void: #070B0E;
+  --color-surface-dim: #0e141a;
+  --color-surface: #0e141a;
+  --color-surface-bright: #343a41;
+  --color-surface-lowest: #090f15;
+  --color-surface-low: #161c22;
+  --color-surface-container: #1a2026;
+  --color-surface-high: #252b31;
+  --color-surface-highest: #2f353c;
+  --color-surface-variant: #2f353c;
+
+  --color-on-surface: #dde3ec;
+  --color-on-surface-variant: #bacbbe;
+  --color-inverse-surface: #dde3ec;
+  --color-inverse-on-surface: #2b3138;
+
+  --color-outline: #849589;
+  --color-outline-variant: #3b4a41;
+  --color-surface-tint: #00e297;
+
+  /* Primary Accent: Neon Emerald */
+  --color-primary: #00e599;
+  --color-primary-light: #6dffba;
+  --color-primary-dark: #006c46;
+  --color-primary-container: #00e599;
+  --color-on-primary: #003822;
+  --color-on-primary-container: #00613e;
+
+  /* Secondary Accent: Atmospheric Cyan / Hi-Fi Spec */
+  --color-secondary: #06b6d4;
+  --color-secondary-light: #4cd7f6;
+  --color-secondary-container: #03b5d3;
+  --color-on-secondary: #003640;
+
+  /* Tertiary / Patron Accent: Warm Amber Gold */
+  --color-amber-patron: #f5a623;
+  --color-amber-glow: #f59e0b;
+  --color-amber-bright: #fbbf24;
+  --color-amber-container: #ffbc68;
+  --color-tertiary: #f5a623;
+  --color-on-tertiary: #472a00;
+
+  /* Specular Borders */
+  --color-specular: rgba(255, 255, 255, 0.08);
+  --color-specular-hover: rgba(255, 255, 255, 0.16);
+
+  /* Typography */
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Base custom styles & Glassmorphism utilities */
+:root {
+  color-scheme: dark;
+}
+
+/* Custom Glassmorphism utility classes */
+.glass-panel {
+  background: rgba(19, 27, 34, 0.72);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-elevated {
+  background: rgba(22, 28, 34, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 16px 36px -8px rgba(0, 0, 0, 0.6);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-input:focus {
+  border-color: #00e599;
+  box-shadow: 0 0 12px rgba(0, 229, 153, 0.25);
+  outline: none;
+}
+
+/* Custom Scrollbar for Nocturne Glass Audio */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 229, 153, 0.35);
+}
+
+/* Tabular figures for music timers */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}

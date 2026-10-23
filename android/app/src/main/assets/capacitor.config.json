@@ -1,0 +1,22 @@
+{
+	"appId": "com.spotiplayer.music",
+	"appName": "SpotiPlayer",
+	"webDir": "dist",
+	"backgroundColor": "#0e141a",
+	"server": {
+		"androidScheme": "https",
+		"cleartext": true
+	},
+	"android": {
+		"allowMixedContent": true,
+		"webContentsDebuggingEnabled": false,
+		"backgroundColor": "#0e141a"
+	},
+	"plugins": {
+		"StatusBar": {
+			"style": "DARK",
+			"backgroundColor": "#0e141a",
+			"overlaysWebView": false
+		}
+	}
+}

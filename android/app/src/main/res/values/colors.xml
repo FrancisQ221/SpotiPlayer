@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nocturne Glass Audio Color Palette -->
+    <color name="colorPrimary">#0e141a</color>
+    <color name="colorPrimaryDark">#0e141a</color>
+    <color name="colorAccent">#00e599</color>
+    <color name="windowBackground">#0e141a</color>
+    <color name="statusBarColor">#0e141a</color>
+    <color name="navigationBarColor">#0e141a</color>
+</resources>

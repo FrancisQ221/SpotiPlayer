@@ -1,0 +1,22 @@
+# ==============================================================================
+# SpotiPlayer Cloud Micro-Backend - Render Blueprint (Infrastructure as Code)
+# Automatically deploys FastAPI + FFmpeg Docker container on Render Free Tier
+# ==============================================================================
+
+services:
+  - type: web
+    name: spotiplayer-backend
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    region: oregon
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PYTHONDONTWRITEBYTECODE
+        value: "1"

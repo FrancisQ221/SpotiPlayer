@@ -1,0 +1,237 @@
+---
+name: Nocturne Glass Audio
+colors:
+  surface: '#0e141a'
+  surface-dim: '#0e141a'
+  surface-bright: '#343a41'
+  surface-container-lowest: '#090f15'
+  surface-container-low: '#161c22'
+  surface-container: '#1a2026'
+  surface-container-high: '#252b31'
+  surface-container-highest: '#2f353c'
+  on-surface: '#dde3ec'
+  on-surface-variant: '#bacbbe'
+  inverse-surface: '#dde3ec'
+  inverse-on-surface: '#2b3138'
+  outline: '#849589'
+  outline-variant: '#3b4a41'
+  surface-tint: '#00e297'
+  primary: '#6dffba'
+  on-primary: '#003822'
+  primary-container: '#00e599'
+  on-primary-container: '#00613e'
+  inverse-primary: '#006c46'
+  secondary: '#4cd7f6'
+  on-secondary: '#003640'
+  secondary-container: '#03b5d3'
+  on-secondary-container: '#00424e'
+  tertiary: '#ffe0be'
+  on-tertiary: '#472a00'
+  tertiary-container: '#ffbc68'
+  on-tertiary-container: '#774a00'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#4dffb2'
+  primary-fixed-dim: '#00e297'
+  on-primary-fixed: '#002112'
+  on-primary-fixed-variant: '#005234'
+  secondary-fixed: '#acedff'
+  secondary-fixed-dim: '#4cd7f6'
+  on-secondary-fixed: '#001f26'
+  on-secondary-fixed-variant: '#004e5c'
+  tertiary-fixed: '#ffddb8'
+  tertiary-fixed-dim: '#ffb95f'
+  on-tertiary-fixed: '#2a1700'
+  on-tertiary-fixed-variant: '#653e00'
+  background: '#0e141a'
+  on-background: '#dde3ec'
+  surface-variant: '#2f353c'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 48px
+    fontWeight: '800'
+    lineHeight: 56px
+    letterSpacing: -0.02em
+  display-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '800'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.005em
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+    letterSpacing: 0.005em
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: 0.005em
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-desktop: 2rem
+  margin: 1.5rem
+  margin-desktop: 2.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The design system is engineered for an immersive desktop streaming and audio community platform. It fuses high-fidelity digital audio workflows with modern dark glassmorphism. The visual atmosphere evokes a midnight studio session: deep oceanic obsidian voids layered under crystalline, frosted-glass acrylic surfaces, punctuated by energetic bioluminescent accents.
+
+### Personality & Emotional Tenor
+- **Atmospheric & Immersive:** Dark layered depths reduce optical fatigue during extended listening and curation sessions.
+- **Precision & High Fidelity:** Crisp translucent panels, luminous meters, and refined typographic contrast signal studio-grade audio fidelity.
+- **Electric Community Connection:** Vibrancy shifts intentionally from listening cues to patron appreciation, signaling communal support and artist patronage through warm solar energy alongside synthetic club neons.
+
+### Visual Style Movement
+A synthesis of **Dark Glassmorphism** and **Refined Cyber-Minimalism**. UI elements float above a multi-tiered abyss using backdrop blurs, delicate specular micro-borders (`rgba(255, 255, 255, 0.08)`), subtle gradient underglows, and fluid pill-shaped controls.
+
+## Colors
+
+The palette establishes an ultra-deep spectral hierarchy where dark surfaces recede into the backdrop, allowing glowing neon indicators and patron accents to take visual precedence.
+
+### Canvas & Surfaces
+- **Void Canvas (`#070B0E`):** Root background, global application shell, and deep underlays.
+- **Surface Elevation 1 (`#0D1319`):** Persistent structural containers (side navigation, sticky bottom persistent player, auxiliary panels).
+- **Surface Elevation 2 (`#131B22`):** Elevated cards, playlist drawers, and contextual dialogue overlays.
+- **Glass Tint Layer:** `rgba(19, 27, 34, 0.65)` to `rgba(19, 27, 34, 0.85)` with `backdrop-filter: blur(20px)`.
+
+### Chromatic Accents
+- **Neon Emerald Green (`#00E599`, `#10B981`):** Primary interaction anchor. Governs global playback controls, active equalizer visualizations, track progression bars, and currently active queue items.
+- **Atmospheric Cyan (`#06B6D4`):** Secondary informational accent. Applied to genre badges, audio format badges (Hi-Res Lossless, Spatial Audio), collaborative playlist tags, and secondary action links.
+- **Warm Amber Gold (`#F59E0B`, `#FBBF24`):** Tertiary community anchor. Dedicated exclusively to creator tips, micro-donations, VIP tier badges, patron heartbeats, and community spark metrics.
+- **Specular Borders & Dividers:** `rgba(255, 255, 255, 0.08)` baseline, scaling up to `rgba(255, 255, 255, 0.16)` on active hover states.
+
+## Typography
+
+Typography relies on **Plus Jakarta Sans**, chosen for its geometric precision, rounded warmth, and exceptional legibility across dense tracklists and dynamic metadata.
+
+### Multilingual Support (ES / EN)
+- All typographic lockups incorporate 25% horizontal headroom to accommodate text expansion between English and Spanish (e.g., "Library" vs. "Biblioteca", "Now Playing" vs. "Reproduciendo").
+- Label styles maintain generous line-heights and moderate tracking to prevent optical crowding with Spanish diacritics (`á`, `é`, `í`, `ó`, `ú`, `ñ`, `ü`).
+- Numerical counters, timestamp scrubbers, and audio bitrates preserve tabular figures (`tnum`) for layout stability during live playback.
+
+## Layout & Spacing
+
+The layout is structured around an asymmetrical desktop fluid application framework with persistent anchors:
+
+### Desktop Layout Architecture
+- **Left Navigation Drawer:** Fixed width of 260px; houses root navigation, user playlists, and patron subscriptions.
+- **Main Content Stage:** Fluid multi-column area utilizing an internal 12-column responsive layout with 24px (1.5rem) to 32px (2rem) gutters.
+- **Right Contextual Deck (Collapsible):** 320px fixed rail for live synchronized lyrics, community patron feed, and queue details.
+- **Bottom Persistent Player:** Fixed 96px docked glass shelf running full-viewport across the bottom edge.
+
+### Breakpoints & Adaptations
+- **Desktop Large (1440px+):** Full 3-column stage (Navigation + Main Grid + Queue/Lyrics Deck).
+- **Desktop Standard (1024px – 1439px):** Contextual deck docks into an overlay flyout; main grid expands across available canvas.
+- **Compact Desktop / Tablet Landscape (768px – 1023px):** Side navigation collapses into an iconified rail (72px); bottom player condenses scrubber ergonomics.
+
+## Elevation & Depth
+
+Visual depth is achieved through layered frosted glass and luminous environmental reflections rather than heavy physical dropshadows.
+
+### Layer Stack
+1. **Backdrop Void (Base 0):** Solid `#070B0E`. Houses ambient blur nodes (diffuse radial green and amber glows positioned beneath featured artist banners).
+2. **Structural Glass (Tier 1):** `#0D1319` with 70% opacity, `backdrop-filter: blur(24px)`, bounded by a 1px solid stroke of `rgba(255, 255, 255, 0.08)`.
+3. **Interactive Cards & Modals (Tier 2):** `#131B22` with 80% opacity, `backdrop-filter: blur(16px)`, bordered with `rgba(255, 255, 255, 0.12)`, casting an ambient shadow: `0 16px 36px -8px rgba(0, 0, 0, 0.6)`.
+4. **Active Focus & Hover Luminescence:** On mouse-over, primary interactive cards gain a targeted specular rim highlight (`rgba(0, 229, 153, 0.3)`) and a delicate radial drop glow: `0 0 24px -4px rgba(0, 229, 153, 0.2)`. Patron-interactive elements shift this glow to warm amber: `0 0 24px -4px rgba(245, 158, 11, 0.25)`.
+
+## Shapes
+
+The design system embraces high curvature and organic fluid contours (Level 3 pill-shaped system), counterbalancing the deep dark technical canvas.
+
+### Radius System
+- **Full Pill (`9999px`):** Play/pause buttons, patron donate triggers, category chips, search inputs, volume handles, and badge containers.
+- **Generous Container (`rounded-xl` / `24px`):** Album artwork wrappers, elevated glass cards, lyric modals, and contextual panels.
+- **Nested Controls (`rounded-lg` / `16px`):** Internal cell highlights, playlist table row active states, and dropdown menus.
+
+## Components
+
+### Buttons
+- **Primary Play Action:** Full pill button with solid `#00E599` fill, `#070B0E` typography, font-weight 700. Hover triggers transform scale (1.04) and a neon aura `box-shadow: 0 0 20px rgba(0, 229, 153, 0.45)`.
+- **Secondary Glass Control:** Frosted translucent pill (`rgba(255, 255, 255, 0.06)`), 1px border `rgba(255, 255, 255, 0.12)`, white text. Hover transitions background to `rgba(255, 255, 255, 0.12)`.
+- **Patron & Tip Button:** Full pill button utilizing a radial gradient fill from `#FBBF24` to `#F59E0B`, paired with dark obsidian text and a leading micro-sparkle/heartbeat icon. Hover introduces dynamic pulse illumination: `0 0 20px rgba(245, 158, 11, 0.5)`.
+
+### Chips & Badges
+- **Audio Spec Tags (Hi-Fi / Spatial):** Cyan tint (`rgba(6, 182, 212, 0.12)` background, `#06B6D4` text, 1px border `rgba(6, 182, 212, 0.28)`), typography `label-sm`, uppercase with 0.06em tracking.
+- **Patron & Supporter Badges:** Amber gold glass surface (`rgba(245, 158, 11, 0.15)`), `#FBBF24` label, accompanied by an inline heartbeat SVG spark.
+
+### Track Lists & Table Rows
+- **List Items:** Minimal height 56px with a base transparent surface.
+- **Hover State:** Background transforms into `rgba(255, 255, 255, 0.04)` with rounded 12px corners.
+- **Active / Currently Playing State:** Frosted fill `rgba(0, 229, 153, 0.08)`, text shifted to `#00E599`, showing an animated 3-bar emerald frequency equalizer icon in place of track number.
+
+### Input Fields
+- **Global Search:** Full pill shell with `rgba(255, 255, 255, 0.05)` fill, 1px border `rgba(255, 255, 255, 0.08)`, and blurred background. Focus states ignite a 1px border of `#00E599` alongside an inner shadow ring `0 0 12px rgba(0, 229, 153, 0.2)`.
+
+### Cards (Album, Artist, Playlist)
+- **Album / Show Card:** Frosted `#131B22` shell with 80% opacity, 16px padding, 20px rounded outer corner. Artwork inside features a 12px border radius. Floating green play button appears via translateY(-4px) and opacity fade-in over the artwork on hover.
+
+### Audio Scrubbers & Volume Sliders
+- **Track Rail:** 4px thickness, background `rgba(255, 255, 255, 0.15)`. Active elapsed length rendered in `#00E599`. Scrub head is an 11px circular neon pill with glowing bloom, expanding to 14px during active drag.

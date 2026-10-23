@@ -1,0 +1,6 @@
+{
+  "name": "SpotiPlayer - Audio HD Studio",
+  "description": "Plataforma de audio de alta fidelidad, mecenazgo ético y streaming nocturno sin publicidad.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
